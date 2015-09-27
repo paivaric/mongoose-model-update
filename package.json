@@ -4,7 +4,8 @@
   "description": "Mongoose plugin providing a Model method for simple, filtered patch-style updates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "babel -d dist/ src/",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
