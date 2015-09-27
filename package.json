@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/autolotto/mongoose-model-update/issues"
   },
-  "homepage": "https://github.com/autolotto/mongoose-model-update#readme"
+  "homepage": "https://github.com/autolotto/mongoose-model-update#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
 }
