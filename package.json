@@ -1,0 +1,27 @@
+{
+  "name": "mongoose-model-update",
+  "version": "0.0.0",
+  "description": "Mongoose plugin providing a Model method for simple, filtered patch-style updates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autolotto/mongoose-model-update.git"
+  },
+  "keywords": [
+    "mongoose",
+    "model",
+    "method",
+    "patch",
+    "update",
+    "plugin"
+  ],
+  "author": "Tejas Manohar <me@tejas.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autolotto/mongoose-model-update/issues"
+  },
+  "homepage": "https://github.com/autolotto/mongoose-model-update#readme"
+}
