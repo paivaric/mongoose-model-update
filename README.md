@@ -48,7 +48,6 @@ At [AutoLotto], we use this for PATCH API updates (RESTfully speaking). Ex-
 export async function update(req, res) {
   // ...
   req.user.update(req.body);
-  await req.user.saveAsync();
   // ...
 }
 ```
