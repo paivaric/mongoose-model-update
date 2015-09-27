@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/mongoose-model-update.png?downloads=true)](https://nodei.co/npm/mongoose-model-update/)
 
-Mongoose plugin providing a Model method for simple, filtered patch-style updates
+[Mongoose] plugin providing a Model method for simple, filtered patch-style updates
 
 
 ## Setup
