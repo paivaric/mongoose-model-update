@@ -27,5 +27,8 @@
   "homepage": "https://github.com/autolotto/mongoose-model-update#readme",
   "devDependencies": {
     "babel": "^5.8.23"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
   }
 }
