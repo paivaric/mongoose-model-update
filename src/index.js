@@ -6,5 +6,5 @@ export default function(schema, defaults) {
     await this.save();
     return this;
   }
-  schema.statics.getEditable = async function(defaults) { return defaults; }
+  schema.statics.getEditable = function(defaults) { return defaults; }
 }
