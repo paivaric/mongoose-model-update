@@ -6,4 +6,7 @@ export default function(schema, defaults) {
     await this.save();
     return this;
   }
+  schema.statics.getEditable = async function(permitted = defaults) {
+    return permitted;
+  }
 }
