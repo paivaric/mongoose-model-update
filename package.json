@@ -1,6 +1,6 @@
 {
   "name": "mongoose-model-update",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Mongoose plugin providing a Model method for simple, filtered patch-style updates",
   "main": "dist/index.js",
   "scripts": {

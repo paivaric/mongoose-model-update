@@ -7,6 +7,6 @@ export default function(schema, defaults) {
     return this;
   }
   schema.statics.getPermitted = function(permitted = defaults) {
-    return defaults;
+    return permitted;
   }
 }
