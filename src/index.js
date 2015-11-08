@@ -6,4 +6,7 @@ export default function(schema, defaults) {
     await this.save();
     return this;
   }
+  schema.statics.getPermitted = function(permitted = defaults) {
+    return defaults;
+  }
 }
