@@ -1,10 +1,9 @@
 {
   "name": "@paivaric/mongoose-model-update",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Mongoose plugin providing a Model method for simple, filtered patch-style updates",
   "main": "src/index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/autolotto/mongoose-model-update.git"
