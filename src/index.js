@@ -1,12 +1,15 @@
-import _ from 'lodash';
+const _ = require('lodash')
 
-export default function(schema, defaults) {
-  schema.methods.update = async function(source, permitted = defaults) {
-    Object.assign(this, permitted ? _.pick(source, permitted) : source);
-    await this.save();
-    return this;
+module.exports = function (schema, defaults) {
+  schema.methods.update = function (source, permitted, cb) {
+    if (!cb) {
+      cb = permitted
+      permitted = defaults
+    }
+    Object.assign(this, permitted ? _.pick(source, permitted) : source)
+    return this.save(cb)
   }
-  schema.statics.getPermitted = function(permitted = defaults) {
-    return permitted;
+  schema.statics.getPermitted = function (permitted = defaults) {
+    return permitted
   }
 }
